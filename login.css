@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 80vh;
+}
+
+body{
+    background-image: url(d:/codes/img/fondominecrafthd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.log-box{
+    width: 50rem;
+    height: 30rem;
+    background-color: #444343;
+    color: #fff;
+    margin: 100px auto;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.log-box h1{
+    font-weight: bold;
+    padding: 0 0;
+    margin: 30px 0 10px 30px;
+    font-size: 22px;
+}
+
+.log-box img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 375px;
+    border-right: #94d636 solid 7px;
+    cursor: pointer;
+    float: right;
+}
+
+.log-box label {
+    margin: 0 0 0 30px;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.log-box a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    transition: ease 0.4s;
+    line-height: 10px;
+    margin: 0 0 0 60px;
+}
+
+.log-box a:hover{
+    color: #3a9dfa;
+}
+
+.log-box input[type="email"], .log-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+  .log-box input[type="submit"] {
+    border: none;
+    margin: 20px 0 0 65px;
+    height: 40px;
+    padding: 10px;
+    background: #94d636;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 25px;
+    transition: ease 0.8s;
+}
+
+.log-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #45b670;
+    color: #000;
+}
+
+
+.lateral{
+    float: right;
+    margin-left: 15px;
+    color: rgb(196, 212, 255);
+    width: 50%;
+    text-align: left;
+    margin: 1rem;
+}
+
+.lateral h2{
+    font-size: 30px;
+    font-weight: 7000px;
+}
+
+.lateral ul{
+    list-style: square;
+    line-height: 25px;
+}
